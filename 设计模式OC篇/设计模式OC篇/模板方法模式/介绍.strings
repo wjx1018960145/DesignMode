@@ -1,0 +1,10 @@
+/* 
+  介绍.strings
+  设计模式OC篇
+
+  Created by wjx on 17/3/28.
+  Copyright © 2017年 WJX. All rights reserved.
+    模板方法的定义:定义一个操作中的算法的框架，而将一些步骤延迟到子类中，使得子类可以不改变一个算法的结构即可重定义该算法的某些特定的步骤。
+ 
+ 
+*/

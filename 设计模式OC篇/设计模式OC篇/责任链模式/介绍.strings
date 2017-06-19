@@ -1,0 +1,27 @@
+/* 
+  介绍.strings
+  设计模式OC篇
+
+  Created by wjx on 17/3/28.
+  Copyright © 2017年 WJX. All rights reserved.
+ 责任链模式定义 ：使多个对象都有机会处理请求，从而避免了请求的发送者和接受者之间的耦合关系，将这些对象连城一个链，并沿着这个链传递请求，直到有对象处理为止。
+    说个故事 “三从四德”
+    古代有三从四德只说 三从 即是未嫁从父，已嫁从夫，夫亡从子，，故事不多讲 知道顺序就行了。
+        
+        类图关系(初级版)
+        
+            IWomen  <--------------IHandler（Protocol）    控制代理
+            -(void)getType;         -(void)HandlerMessage;
+            -(String*)getRequest; 
+                ^                           ^
+                |                           |
+                |                           |
+                |                           |
+                |                           |
+            Women               Father     Husband    Son
+ 
+ 
+ 
+ 
+ 
+ */
