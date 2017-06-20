@@ -57,6 +57,7 @@
 		6B558E241EF7BC9E00A46D7B /* DeletePageCommand.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeletePageCommand.m; sourceTree = "<group>"; };
 		6B558E261EF7BCF400A46D7B /* Invoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invoker.h; sourceTree = "<group>"; };
 		6B558E271EF7BCF400A46D7B /* Invoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Invoker.m; sourceTree = "<group>"; };
+		6B558E2A1EF8C9D600A46D7B /* 介绍.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = "介绍.strings"; sourceTree = "<group>"; };
 		6BC817BA1E88ECC300099C0F /* 设计模式OC篇 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "设计模式OC篇"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BC817BD1E88ECC300099C0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6BC817C51E88EDFE00099C0F /* HummerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HummerModel.h; sourceTree = "<group>"; };
@@ -122,6 +123,14 @@
 			path = "命令模式";
 			sourceTree = "<group>";
 		};
+		6B558E291EF8C9BB00A46D7B /* 桥梁模式 */ = {
+			isa = PBXGroup;
+			children = (
+				6B558E2A1EF8C9D600A46D7B /* 介绍.strings */,
+			);
+			path = "桥梁模式";
+			sourceTree = "<group>";
+		};
 		6BC817B11E88ECC300099C0F = {
 			isa = PBXGroup;
 			children = (
@@ -141,6 +150,7 @@
 		6BC817BC1E88ECC300099C0F /* 设计模式OC篇 */ = {
 			isa = PBXGroup;
 			children = (
+				6B558E291EF8C9BB00A46D7B /* 桥梁模式 */,
 				6B558E0F1EF7A4B100A46D7B /* 命令模式 */,
 				6BC817DE1E89195400099C0F /* 责任链模式 */,
 				6BC817CC1E89002E00099C0F /* 建造者模式 */,
