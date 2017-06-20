@@ -17,6 +17,11 @@
 #import "RequirementGroup.h"
 #import "Invoker.h"
 #import "AddRequireCOmmand.h"
+#import "HouseCorp.h"
+#import "ClothesCorp.h"
+#import "House.h"
+#import "IPod.h"
+#import "SZCrop.h"
 int main(int argc, const char * argv[]) {
     @autoreleasepool {
         // insert code here...
@@ -46,17 +51,33 @@ int main(int argc, const char * argv[]) {
 //        [bmw run];
         
         //
-        NSLog(@"************************命令模式初级版************************");
-        Group *group = [RequirementGroup new];
-        [group find];
-        [group add];
-        [group plan];
-        NSLog(@"*************************命令模式升级版************************");
-        Invoker *jietou = [Invoker new];//接头人
-        NSLog(@"*************************客户要增加一个需求*********************");
-        Command *command = [AddRequireCOmmand new];//客户下达命令
-        jietou.command = command;//接头者接受到命令
-        [jietou action];//接头人执行命令
+//        NSLog(@"************************命令模式初级版************************");
+//        Group *group = [RequirementGroup new];
+//        [group find];
+//        [group add];
+//        [group plan];
+//        NSLog(@"*************************命令模式升级版************************");
+//        Invoker *jietou = [Invoker new];//接头人
+//        NSLog(@"*************************客户要增加一个需求*********************");
+//        Command *command = [AddRequireCOmmand new];//客户下达命令
+//        jietou.command = command;//接头者接受到命令
+//        [jietou action];//接头人执行命令
+        
+        NSLog(@"************************桥梁模式初级版************************");
+        HouseCorp *hoise = [HouseCorp new];
+        [hoise makeMoney];
+        ClothesCorp *clothse = [ClothesCorp new];
+        [clothse makeMoney];
+         NSLog(@"************************桥梁模式升级版************************");
+        NSLog(@"房地产产业是这样玩的");
+        House *house = [House new];
+        HouseCorp *housecrop = [[HouseCorp alloc] init:house];
+        [housecrop makeMoney];
+        NSLog(@"中国的山寨公司是这样生产点子设备的");
+        SZCrop *shanzhai = [[SZCrop alloc] init:[IPod new]];
+        [shanzhai makeMoney];
+        
+        
 
     }
     return 0;

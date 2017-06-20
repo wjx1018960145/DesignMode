@@ -15,6 +15,13 @@
 		6B558E221EF7BC0C00A46D7B /* AddRequireCOmmand.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B558E211EF7BC0C00A46D7B /* AddRequireCOmmand.m */; };
 		6B558E251EF7BC9E00A46D7B /* DeletePageCommand.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B558E241EF7BC9E00A46D7B /* DeletePageCommand.m */; };
 		6B558E281EF7BCF400A46D7B /* Invoker.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B558E271EF7BCF400A46D7B /* Invoker.m */; };
+		6B558E2D1EF8CD4D00A46D7B /* Corp.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B558E2C1EF8CD4D00A46D7B /* Corp.m */; };
+		6B558E301EF8CE6400A46D7B /* HouseCorp.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B558E2F1EF8CE6400A46D7B /* HouseCorp.m */; };
+		6B558E331EF8CF5F00A46D7B /* ClothesCorp.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B558E321EF8CF5F00A46D7B /* ClothesCorp.m */; };
+		6B558E361EF8FF2A00A46D7B /* Product.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B558E351EF8FF2A00A46D7B /* Product.m */; };
+		6B558E391EF8FFDC00A46D7B /* House.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B558E381EF8FFDC00A46D7B /* House.m */; };
+		6B558E3C1EF900A500A46D7B /* IPod.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B558E3B1EF900A500A46D7B /* IPod.m */; };
+		6B558E3F1EF903A200A46D7B /* SZCrop.m in Sources */ = {isa = PBXBuildFile; fileRef = 6B558E3E1EF903A200A46D7B /* SZCrop.m */; };
 		6BC817BE1E88ECC300099C0F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC817BD1E88ECC300099C0F /* main.m */; };
 		6BC817C81E88F0BC00099C0F /* HummerH1Mode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC817C71E88F0BC00099C0F /* HummerH1Mode.m */; };
 		6BC817CB1E88F77D00099C0F /* HummerH2Mode.m in Sources */ = {isa = PBXBuildFile; fileRef = 6BC817CA1E88F77D00099C0F /* HummerH2Mode.m */; };
@@ -58,6 +65,20 @@
 		6B558E261EF7BCF400A46D7B /* Invoker.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Invoker.h; sourceTree = "<group>"; };
 		6B558E271EF7BCF400A46D7B /* Invoker.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Invoker.m; sourceTree = "<group>"; };
 		6B558E2A1EF8C9D600A46D7B /* 介绍.strings */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.plist.strings; path = "介绍.strings"; sourceTree = "<group>"; };
+		6B558E2B1EF8CD4D00A46D7B /* Corp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Corp.h; sourceTree = "<group>"; };
+		6B558E2C1EF8CD4D00A46D7B /* Corp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Corp.m; sourceTree = "<group>"; };
+		6B558E2E1EF8CE6400A46D7B /* HouseCorp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HouseCorp.h; sourceTree = "<group>"; };
+		6B558E2F1EF8CE6400A46D7B /* HouseCorp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = HouseCorp.m; sourceTree = "<group>"; };
+		6B558E311EF8CF5F00A46D7B /* ClothesCorp.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ClothesCorp.h; sourceTree = "<group>"; };
+		6B558E321EF8CF5F00A46D7B /* ClothesCorp.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ClothesCorp.m; sourceTree = "<group>"; };
+		6B558E341EF8FF2A00A46D7B /* Product.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Product.h; sourceTree = "<group>"; };
+		6B558E351EF8FF2A00A46D7B /* Product.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Product.m; sourceTree = "<group>"; };
+		6B558E371EF8FFDC00A46D7B /* House.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = House.h; sourceTree = "<group>"; };
+		6B558E381EF8FFDC00A46D7B /* House.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = House.m; sourceTree = "<group>"; };
+		6B558E3A1EF900A500A46D7B /* IPod.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = IPod.h; sourceTree = "<group>"; };
+		6B558E3B1EF900A500A46D7B /* IPod.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = IPod.m; sourceTree = "<group>"; };
+		6B558E3D1EF903A200A46D7B /* SZCrop.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = SZCrop.h; sourceTree = "<group>"; };
+		6B558E3E1EF903A200A46D7B /* SZCrop.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = SZCrop.m; sourceTree = "<group>"; };
 		6BC817BA1E88ECC300099C0F /* 设计模式OC篇 */ = {isa = PBXFileReference; explicitFileType = "compiled.mach-o.executable"; includeInIndex = 0; path = "设计模式OC篇"; sourceTree = BUILT_PRODUCTS_DIR; };
 		6BC817BD1E88ECC300099C0F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
 		6BC817C51E88EDFE00099C0F /* HummerModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = HummerModel.h; sourceTree = "<group>"; };
@@ -127,6 +148,20 @@
 			isa = PBXGroup;
 			children = (
 				6B558E2A1EF8C9D600A46D7B /* 介绍.strings */,
+				6B558E2B1EF8CD4D00A46D7B /* Corp.h */,
+				6B558E2C1EF8CD4D00A46D7B /* Corp.m */,
+				6B558E2E1EF8CE6400A46D7B /* HouseCorp.h */,
+				6B558E2F1EF8CE6400A46D7B /* HouseCorp.m */,
+				6B558E311EF8CF5F00A46D7B /* ClothesCorp.h */,
+				6B558E321EF8CF5F00A46D7B /* ClothesCorp.m */,
+				6B558E341EF8FF2A00A46D7B /* Product.h */,
+				6B558E351EF8FF2A00A46D7B /* Product.m */,
+				6B558E371EF8FFDC00A46D7B /* House.h */,
+				6B558E381EF8FFDC00A46D7B /* House.m */,
+				6B558E3A1EF900A500A46D7B /* IPod.h */,
+				6B558E3B1EF900A500A46D7B /* IPod.m */,
+				6B558E3D1EF903A200A46D7B /* SZCrop.h */,
+				6B558E3E1EF903A200A46D7B /* SZCrop.m */,
 			);
 			path = "桥梁模式";
 			sourceTree = "<group>";
@@ -271,17 +306,24 @@
 				6B558E221EF7BC0C00A46D7B /* AddRequireCOmmand.m in Sources */,
 				6BC817CB1E88F77D00099C0F /* HummerH2Mode.m in Sources */,
 				6B558E1F1EF7B96A00A46D7B /* Command.m in Sources */,
+				6B558E331EF8CF5F00A46D7B /* ClothesCorp.m in Sources */,
+				6B558E301EF8CE6400A46D7B /* HouseCorp.m in Sources */,
 				6B558E281EF7BCF400A46D7B /* Invoker.m in Sources */,
 				6B558E161EF7ACC800A46D7B /* RequirementGroup.m in Sources */,
+				6B558E2D1EF8CD4D00A46D7B /* Corp.m in Sources */,
 				6B558E191EF7AFCC00A46D7B /* PageGroup.m in Sources */,
 				6BC817D01E89068A00099C0F /* BaseMode.m in Sources */,
+				6B558E3C1EF900A500A46D7B /* IPod.m in Sources */,
+				6B558E361EF8FF2A00A46D7B /* Product.m in Sources */,
 				6BC817EB1E8A1E3500099C0F /* Women.m in Sources */,
 				6BC817BE1E88ECC300099C0F /* main.m in Sources */,
 				6BC817DD1E8917AE00099C0F /* BMWBuilder.m in Sources */,
 				6BC817C81E88F0BC00099C0F /* HummerH1Mode.m in Sources */,
 				6BC817D31E89071C00099C0F /* BenzModel.m in Sources */,
+				6B558E391EF8FFDC00A46D7B /* House.m in Sources */,
 				6BC817DA1E89125000099C0F /* BenzBuilder.m in Sources */,
 				6BFF3D7D1E8A225B00BE5F8D /* Father.m in Sources */,
+				6B558E3F1EF903A200A46D7B /* SZCrop.m in Sources */,
 				6B558E251EF7BC9E00A46D7B /* DeletePageCommand.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
